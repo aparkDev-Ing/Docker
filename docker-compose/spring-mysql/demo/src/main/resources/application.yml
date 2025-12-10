@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    hikari:
+      initialization-fail-timeout: -1
+    url: jdbc:mysql://my-db:3306/mydb
+    username: root
+    password: pwd1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    redis:
+      host: my-cacheserver
+      port: 6379
+      timeout: 5000ms

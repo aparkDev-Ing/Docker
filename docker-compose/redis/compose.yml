@@ -1,0 +1,6 @@
+services:
+  my-cache-server:
+    container_name: my-redis
+    image: redis
+    ports: 
+      - 6379:6379

@@ -1,0 +1,6 @@
+services:
+  nestjs-server:
+    build: .
+    container_name: nestjs-server
+    ports: 
+      - 3000:3000

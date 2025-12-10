@@ -1,0 +1,6 @@
+services:
+  weblegacy-nginx:
+    build: .
+    ports: 
+      - 80:80
+    
